@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-MODEL_NAME = "/content/drive/MyDrive/Practice/savarWebApp/age_detector_model (2)"
+MODEL_NAME = "age_detect_model"
 
 @st.cache_resource
 def load_model(model_name):
